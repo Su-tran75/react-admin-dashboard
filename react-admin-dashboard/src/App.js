@@ -1,73 +1,15 @@
+import "./app.scss";
 import Topbar from "./components/topbar/Topbar";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Topbar />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
-      Test <br />
+      <div className="container">
+        <Sidebar />
+        <div className="others">other pages</div>
+      </div>
     </div>
   );
 }
